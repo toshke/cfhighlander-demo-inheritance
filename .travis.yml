@@ -2,5 +2,6 @@ language: ruby
 rvm:
   - 2.3
 script:
-  - git clone https://github.com/toshke/cfhighlander && cd cfhighlander && git checkout feature/extend && cd ..
-  - cfhighlander/bin/cfhighlander cfcompile master
+  - git clone https://github.com/toshke/cfhighlander && cd cfhighlander && git checkout feature/extend
+  - gem build cfhighlander.gemspec && gem install chighlander-*.gem && cd ..
+  - cfhighlander cfcompile master
