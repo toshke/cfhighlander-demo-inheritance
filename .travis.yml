@@ -3,5 +3,5 @@ rvm:
   - 2.3
 script:
   - git clone https://github.com/toshke/cfhighlander && cd cfhighlander && git checkout feature/extend
-  - gem build cfhighlander.gemspec && gem install chighlander-*.gem && cd ..
+  - gem build cfhighlander.gemspec && gem install cfhighlander-*.gem && cd ..
   - cfhighlander cfcompile master
