@@ -11,7 +11,8 @@ of other templates.
 ```
 ## make sure to uninstall all previous versions if you have any, 
 ## so the proper code is returned from gem cache
-$ gem install cfhighlander --prerelease
+$ git clone https://github.com/toshke/cfhighlander && cd cfhighlander && git checkout feature/extend
+$ gem build cfhighlander.gemspec && gem install cfhighlander-*.gem && cd ..
 $ git clone https://github.com/toshke/cfhighlander-inheritance-demo
 $ cd cfhighlander-inheritance-demo
 $ cfhighlander cfcompile master
