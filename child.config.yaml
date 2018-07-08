@@ -1,0 +1,6 @@
+child_key: child
+parent_key: overwritten_in_child
+
+# shadow parent configuration
+conditionalbucket: false
+application_instance_type: m5.medium

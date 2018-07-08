@@ -1,0 +1,5 @@
+
+# shadow configuration of component
+# that is 2 levels deep in hierarchy
+conditionalbucket2: true
+master_only: hello, world!

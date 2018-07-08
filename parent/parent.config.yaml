@@ -1,0 +1,7 @@
+
+parent_key: will this be overwritten?
+
+parent_standolone_key: this should not be overwritten
+
+conditionalbucket: true
+conditionalbucket2: false
